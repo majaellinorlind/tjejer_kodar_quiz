@@ -97,10 +97,10 @@ h3 {
 }
 
 .p.question {
-	font-size: 18px;
+	font-size: 13px;
 	color: black;
 	font-family: Quicksand, sans serif;
-	font-weight: normal;
+	font-weight: bold;
 }
 
 .btn.btn-primary.btn-lg.question {
