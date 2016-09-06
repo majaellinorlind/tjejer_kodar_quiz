@@ -1,11 +1,12 @@
 
+
+
 .border {
 	border: 20px solid transparent;
 	-moz-border-image: -moz-linear-gradient(top, #E30B86 0%, #FF4D00 100%);
 	-webkit-border-image: -webkit-linear-gradient(top, #E30B86 0%, #FF4D00 100%);
 	border-image: linear-gradient(to bottom, #E30B86 0%, #FF4D00 100%);
 	border-image-slice: 1;
-
 }
 
 body {
@@ -17,10 +18,6 @@ h1 {
 	font-family: lemonmilk;
 	font-size: 50px;
 	color: black;
-}
-
-.start {
-	font-size: 100px;
 }
 
 h2 {
@@ -44,20 +41,66 @@ h3 {
 	align-content: center
 }
 
+.container.start {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	background: #E30B86;
+	background: linear-gradient(#E30B86, #FF4D00);
+}
+
+.container.quiz {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	background: #E30B86;
+	background: linear-gradient(#E30B86, #FF4D00);
+}
+
+.h.start {
+	font-size: 100px;
+	color: white;
+	margin: 180px 0px 0px 0px;
+}
+
+.h.quiz {
+	font-size: 100px;
+	color: white;
+	margin: 180px 0px 0px 0px;
+}
+
+.p.start {
+	font-size: 18px;
+	color: white;
+	font-family: Quicksand, sans serif;
+	font-weight: lighter;
+}
+
+.p.question {
+	font-size: 18px;
+	color: black;
+	font-family: Quicksand, sans serif;
+	font-weight: normal;
+}
+
 .btn.btn-primary.btn-lg.question {
 	background-color: #e3e3e3;
 	border: none;
 	border-radius: 0px;
 	width: 450px;
 	margin: 8px 0px 1px 0px;
-	font-family: helvetica;
+	font-family: Quicksand, sans serif;
 	text-align: left;
-	color: #7E7F80;
+	color: black;
 	-webkit-transition-duration: 0,4s;
 	transition-duration: 0,4s;
 }
 .btn.btn-primary.btn-lg.question:hover {
-	background-color: #FF4D00;
+	background-color: #3DD1B6;
 	color: white;
 }
 
@@ -67,14 +110,32 @@ h3 {
 	border-radius: 0px;
 	width: 450px;
 	margin: 8px 0px 1px 0px;
-	font-family: helvetica;
+	font-family: Quicksand, sans serif;
 	text-align: center;
-	color: #7E7F80;
+	color: black;
 	-webkit-transition-duration: 0,4s;
 	transition-duration: 0,4s;
 }
 
 .btn.btn-primary.btn-lg.quiz:hover {
-	background-color: #E30B86;
+	background-color: #3DD1B6;
+	color: white;
+}
+
+.btn.btn-primary.btn-lg.start {
+	background-color: #e3e3e3;
+	border: none;
+	border-radius: 0px;
+	width: 450px;
+	margin: 8px 0px 80px 0px;
+	font-family: Quicksand, sans serif;
+	text-align: center;
+	color: black;
+	-webkit-transition-duration: 0,4s;
+	transition-duration: 0,4s;
+}
+
+.btn.btn-primary.btn-lg.start:hover {
+	background-color: #3DD1B6;
 	color: white;
 }
