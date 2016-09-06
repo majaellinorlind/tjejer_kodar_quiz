@@ -73,11 +73,15 @@ h3 {
 	margin: 180px 0px 0px 0px;
 }
 
+
 .h.t.quiz {
 	font-family: Quicksand, sans serif;
 	font-size: 20px;
 	color: black;
 	margin: 0px 0px 15px 0px;
+}
+.h.result {
+	padding: 40px 0px 0px 0px;
 }
 
 .p.start {
@@ -101,6 +105,23 @@ h3 {
 	color: black;
 	font-family: Quicksand, sans serif;
 	font-weight: bold;
+}
+
+.p.result {
+	font-family: Quicksand, san serif;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.b.result {
+	text-align: left;
+	margin: 0px 0px 10px 60px;
+}
+
+.result.box {
+	background-color: white;
+	align-content: center;
+	margin: 100px 150px 0px 150px;
 }
 
 .btn.btn-primary.btn-lg.question {
@@ -155,3 +176,4 @@ h3 {
 	background-color: #3DD1B6;
 	color: white;
 }
+
