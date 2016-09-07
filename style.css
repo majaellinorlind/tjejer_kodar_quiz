@@ -241,11 +241,11 @@ p {
   color: #3DD1B6;
 }
 
-.share-btn:active {
+.share-btn:visited {
   position: relative;
   top: 2px;
   box-shadow: none;
-  color: #e2e2e2;
+  color: #FF9161;
   outline: none;
 }
 
