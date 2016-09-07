@@ -53,6 +53,12 @@ a:hover {
 	color: #E30B86;
 }
 
+p {
+	font-family: Quicksand, sans serif;
+	font-size: 14px;
+	color: white;
+}
+
 .container {
 	align-content: center
 }
